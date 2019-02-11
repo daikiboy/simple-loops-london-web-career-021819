@@ -22,10 +22,10 @@ end
 
 def while_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  count = 1 
+  counter = 1 
   while count < number_of_times do
-    count += 1
     puts phrase
+     counter += 1
 end
   # code your solution here using the "while" keyword
   # hint: user a counter to tell the while loop when to stop!
