@@ -25,7 +25,7 @@ def while_iterator(number_of_times)
   count = 1 
   while count < number_of_times do
     count += 1
-    puts "#{phrase}"
+    puts phrase
 end
   # code your solution here using the "while" keyword
   # hint: user a counter to tell the while loop when to stop!
